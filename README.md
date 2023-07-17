@@ -1,4 +1,4 @@
-# Xray for Glitch
+# VVTSS Glitch
 
 * * *
 
@@ -15,17 +15,17 @@
 * * *
 
 ## 项目特点:
-* 本项目用于在 [Glitch](https://glitch.com/) 部署 Xray，采用的方案为 Argo + Xray + WebSocket + TLS
+* 本项目用于在 [Glitch](https://glitch.com/) 部署 Xary，采用的方案为 Argo + Xary + WebSocket + TLS
 * 解锁 ChatGPT
 * 在浏览器查看系统各项信息，方便直观
 * 使用 CloudFlare 的 Argo 隧道，既支持没有认证的临时隧道，又支持通过 token 申请的固定域名(需要信用卡认证，有免费套餐），直接优选 + 隧道，CDN 不用再做 workers
-* 回流分流，同时支持 Xray 4 种主流协议: vless /  vmess / trojan / shadowsocks
+* 回流分流，同时支持 Xary 4 种主流协议: vless /  vmess / trojan / shadowsocks
 * vmess 和 vless 的 uuid，trojan 和 shadowsocks 的 password，各协议的 ws 路径既可以自定义，又或者使用默认值
 * 集成哪吒探针，可以自由选择是否安装
 * 前端 js 定时保活，会玩的用户可以根据具体情况修改间隔时间
 * 节点信息以 V2rayN / Clash / 小火箭 链接方式输出
 * 可以使用浏览器使用 webssh 和 webftp，更方便管理系统
-* Xray 文件重新编译官方文件增加隐秘性，修改了运行时的显示信息，文件为: https://github.com/XTLS/Xray-core/blob/main/core/core.go
+* Xary 文件重新编译官方文件增加隐秘性，修改了运行时的显示信息，文件为: https://github.com/XTLS/Xary-core/blob/main/core/core.go
 
 
 ## 部署:
